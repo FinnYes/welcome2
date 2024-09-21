@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #502ea5;
+  }
+  
+  .button-container {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .button-image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .button-image:hover {
+    transform: scale(1.1);
+  }
+  
